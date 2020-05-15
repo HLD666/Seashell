@@ -1,0 +1,3 @@
+# requirements for other configurations are located in the requirements subdirectory
+-r node/requirements.txt
+-r web/requirements.txt

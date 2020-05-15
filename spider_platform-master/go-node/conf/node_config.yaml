@@ -1,0 +1,46 @@
+mysql:
+  development:
+    host: 192.168.2.242
+    user: root
+    password: root
+    port: 3306
+    database: data_res
+    char: utf8mb4
+
+  production:
+    host: 192.168.108.80
+    user: root
+    password: root
+    port: 3306
+    database: data_res
+    char: utf8mb4
+
+  testing:
+    host: 127.0.0.1
+    user: root
+    password: root
+    port: 3306
+    database: data_res
+    char: utf8mb4
+
+redis:
+  development:
+    host: 192.168.2.242
+    port: 6379
+    database: 0
+    connection: 100
+
+  production:
+    host: 192.168.2.242
+    port: 6379
+    database: 0
+    connection: 100
+
+  testing:
+    host: 192.168.2.242
+    port: 6379
+    database: 0
+    connection: 100
+
+spider:
+  script: ""
