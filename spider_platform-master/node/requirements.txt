@@ -33,7 +33,7 @@ multidict==4.7.3
 mysql-connector-python==8.0.20
 packaging==20.3
 pluggy==0.13.1
-protobuf==3.11.3
+protobuf==3.18.3
 py==1.8.1
 pycparser==2.20
 PyMySQL==0.9.3
